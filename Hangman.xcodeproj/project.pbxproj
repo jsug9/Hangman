@@ -40,7 +40,7 @@
 		143FDD1526BAEA7C00A1B5C0 = {
 			isa = PBXGroup;
 			children = (
-				143FDD2026BAEA7C00A1B5C0 /* Apple Pie SUI */,
+				143FDD2026BAEA7C00A1B5C0 /* Hangman */,
 				143FDD1F26BAEA7C00A1B5C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		143FDD2026BAEA7C00A1B5C0 /* Apple Pie SUI */ = {
+		143FDD2026BAEA7C00A1B5C0 /* Hangman */ = {
 			isa = PBXGroup;
 			children = (
 				143FDD2126BAEA7C00A1B5C0 /* Apple_Pie_SUIApp.swift */,
@@ -64,7 +64,7 @@
 				143FDD2A26BAEA7D00A1B5C0 /* Info.plist */,
 				143FDD2726BAEA7D00A1B5C0 /* Preview Content */,
 			);
-			path = "Apple Pie SUI";
+			path = Hangman;
 			sourceTree = "<group>";
 		};
 		143FDD2726BAEA7D00A1B5C0 /* Preview Content */ = {
