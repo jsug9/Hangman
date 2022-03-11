@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141B078D26BC29FE000D02EB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141B078C26BC29FE000D02EB /* Extensions.swift */; };
 		143FDD2226BAEA7C00A1B5C0 /* Apple_Pie_SUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FDD2126BAEA7C00A1B5C0 /* Apple_Pie_SUIApp.swift */; };
 		143FDD2426BAEA7C00A1B5C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FDD2326BAEA7C00A1B5C0 /* ContentView.swift */; };
 		143FDD2626BAEA7D00A1B5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143FDD2526BAEA7D00A1B5C0 /* Assets.xcassets */; };
 		143FDD2926BAEA7D00A1B5C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143FDD2826BAEA7D00A1B5C0 /* Preview Assets.xcassets */; };
+		143FDD3126BAEE6500A1B5C0 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FDD3026BAEE6500A1B5C0 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		143FDD1E26BAEA7C00A1B5C0 /* Apple Pie SUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pie SUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		141B078C26BC29FE000D02EB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		143FDD1E26BAEA7C00A1B5C0 /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		143FDD2126BAEA7C00A1B5C0 /* Apple_Pie_SUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_Pie_SUIApp.swift; sourceTree = "<group>"; };
 		143FDD2326BAEA7C00A1B5C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		143FDD2526BAEA7D00A1B5C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		143FDD2826BAEA7D00A1B5C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		143FDD2A26BAEA7D00A1B5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143FDD3026BAEE6500A1B5C0 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +48,7 @@
 		143FDD1F26BAEA7C00A1B5C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				143FDD1E26BAEA7C00A1B5C0 /* Apple Pie SUI.app */,
+				143FDD1E26BAEA7C00A1B5C0 /* Hangman.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				143FDD2126BAEA7C00A1B5C0 /* Apple_Pie_SUIApp.swift */,
+				143FDD3026BAEE6500A1B5C0 /* Game.swift */,
 				143FDD2326BAEA7C00A1B5C0 /* ContentView.swift */,
+				141B078C26BC29FE000D02EB /* Extensions.swift */,
 				143FDD2526BAEA7D00A1B5C0 /* Assets.xcassets */,
 				143FDD2A26BAEA7D00A1B5C0 /* Info.plist */,
 				143FDD2726BAEA7D00A1B5C0 /* Preview Content */,
@@ -72,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		143FDD1D26BAEA7C00A1B5C0 /* Apple Pie SUI */ = {
+		143FDD1D26BAEA7C00A1B5C0 /* Hangman */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 143FDD2D26BAEA7D00A1B5C0 /* Build configuration list for PBXNativeTarget "Apple Pie SUI" */;
+			buildConfigurationList = 143FDD2D26BAEA7D00A1B5C0 /* Build configuration list for PBXNativeTarget "Hangman" */;
 			buildPhases = (
 				143FDD1A26BAEA7C00A1B5C0 /* Sources */,
 				143FDD1B26BAEA7C00A1B5C0 /* Frameworks */,
@@ -84,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = "Apple Pie SUI";
+			name = Hangman;
 			productName = "Apple Pie SUI";
-			productReference = 143FDD1E26BAEA7C00A1B5C0 /* Apple Pie SUI.app */;
+			productReference = 143FDD1E26BAEA7C00A1B5C0 /* Hangman.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 143FDD1926BAEA7C00A1B5C0 /* Build configuration list for PBXProject "Apple Pie SUI" */;
+			buildConfigurationList = 143FDD1926BAEA7C00A1B5C0 /* Build configuration list for PBXProject "Hangman" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				143FDD1D26BAEA7C00A1B5C0 /* Apple Pie SUI */,
+				143FDD1D26BAEA7C00A1B5C0 /* Hangman */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141B078D26BC29FE000D02EB /* Extensions.swift in Sources */,
 				143FDD2426BAEA7C00A1B5C0 /* ContentView.swift in Sources */,
+				143FDD3126BAEE6500A1B5C0 /* Game.swift in Sources */,
 				143FDD2226BAEA7C00A1B5C0 /* Apple_Pie_SUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +277,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Apple Pie SUI/Preview Content\"";
-				DEVELOPMENT_TEAM = BXSDXC45DP;
+				DEVELOPMENT_TEAM = 7AGVRFU5DF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Apple Pie SUI/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -277,7 +285,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Augusto.Apple-Pie-SUI";
+				PRODUCT_BUNDLE_IDENTIFIER = "Augusto.Apple-Pie-SUI1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,7 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Apple Pie SUI/Preview Content\"";
-				DEVELOPMENT_TEAM = BXSDXC45DP;
+				DEVELOPMENT_TEAM = 7AGVRFU5DF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Apple Pie SUI/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -299,7 +307,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Augusto.Apple-Pie-SUI";
+				PRODUCT_BUNDLE_IDENTIFIER = "Augusto.Apple-Pie-SUI1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		143FDD1926BAEA7C00A1B5C0 /* Build configuration list for PBXProject "Apple Pie SUI" */ = {
+		143FDD1926BAEA7C00A1B5C0 /* Build configuration list for PBXProject "Hangman" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				143FDD2B26BAEA7D00A1B5C0 /* Debug */,
@@ -318,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		143FDD2D26BAEA7D00A1B5C0 /* Build configuration list for PBXNativeTarget "Apple Pie SUI" */ = {
+		143FDD2D26BAEA7D00A1B5C0 /* Build configuration list for PBXNativeTarget "Hangman" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				143FDD2E26BAEA7D00A1B5C0 /* Debug */,
