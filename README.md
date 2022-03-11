@@ -1,5 +1,4 @@
 # Hangman
-# ToDo-SwiftUI
 
 > This is the classical game Hangman, in which one has to guest the word with limited attemps. This project is a SwiftUI adaptation from the original project using Storyboard from the Apple Swift guide.
 
